@@ -1,0 +1,1 @@
+{"binary_classification_metrics": {"accuracy": {"value": 0.952054794520548, "standard_deviation": "NaN"}, "recall": {"value": 0.04, "standard_deviation": "NaN"}, "precision": {"value": 0.6666666666666666, "standard_deviation": "NaN"}}}
