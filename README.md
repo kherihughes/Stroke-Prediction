@@ -1,3 +1,8 @@
+# Stroke Prediction Model Pipeline
+
+## Description
+This project focuses on using machine learning to predict stroke instances using a healthcare stroke dataset. The dataset is stored in an Amazon Simple Storage Service (S3) bucket and processed with the help of AWS Data Wrangler. The data is then used to train an XGBoost model via an Amazon SageMaker pipeline. The model is deployed for inference once approved manually, following a certain precision threshold.
+
 ## Layout of the StrokePrediction SageMaker Pipeline
 
 
@@ -23,12 +28,6 @@
 |   `-- test_pipelines.py
 `-- tox.ini
 ```
-
-
-# Stroke Prediction Project
-
-## Description
-This project focuses on using machine learning to predict stroke instances using a healthcare stroke dataset. The dataset is stored in an Amazon Simple Storage Service (S3) bucket and processed with the help of AWS Data Wrangler. The data is then used to train an XGBoost model via an Amazon SageMaker pipeline. The model is deployed for inference once approved manually, following a certain precision threshold.
 
 ## Components
 **Data**: The data used for this project is a healthcare stroke dataset stored in an AWS S3 bucket.
